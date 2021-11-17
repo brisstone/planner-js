@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sortable Drag and Drop with Vanilla Javascript</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="list">
+        <h1>Customer Details</h1>
+        <div>
+          <table>
+            <thead>
+              <tr class="data-row">
+                <td>Customer ID</td>
+                <td>Customer Name</td>
+                <td>Pick Up Location</td>
+                <td>Drop off Location</td>
+              </tr>
+            </thead>
+            <tbody class="draggingContainer">
+              <tr class="data-row" draggable="true">
+                <td>1</td>
+                <td>Johnson Man</td>
+                <td>Lagos State</td>
+                <td>Abuja</td>
+              </tr>
+
+              <tr class="data-row" draggable="true">
+                <td>2</td>
+                <td>Johnson Man</td>
+                <td>Lagos State</td>
+                <td>Abuja</td>
+              </tr>
+
+              <tr class="data-row" draggable="true">
+                <td>3</td>
+                <td>Johnson Man</td>
+                <td>Lagos State</td>
+                <td>Abuja</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <!-- ///////////TOOEOW -->
+
+      <div class="list">
+        <h1>TODO</h1>
+        <div class="draggingContainer">
+          <div>
+            <table class="draggingContainer">
+              <thead>
+                <tr class="data-row">
+                  <td>Customer ID</td>
+                  <td>Customer Name</td>
+                  <td>Pick Up Location</td>
+                  <td>Drop off Location</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="data-row" draggable="true">
+                  <td>1</td>
+                  <td>Johnson Man</td>
+                  <td>Lagos State</td>
+                  <td>Abuja</td>
+                </tr>
+                <tr class="data-row" draggable="true">
+                  <td>1</td>
+                  <td>Johnson Man</td>
+                  <td>Lagos State</td>
+                  <td>Abuja</td>
+                </tr>
+                <tr class="data-row" draggable="true">
+                  <td>2</td>
+                  <td>James ipin</td>
+                  <td>abij State</td>
+                  <td>ekiti</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
